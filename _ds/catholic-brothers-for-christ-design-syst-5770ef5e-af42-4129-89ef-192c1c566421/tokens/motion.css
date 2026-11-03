@@ -1,0 +1,20 @@
+:root{
+  --ease-standard:cubic-bezier(.4,0,.2,1); /* @kind other */
+  /* color / border transitions */
+  --dur-color:200ms; /* @kind other */
+  /* card image scale to 1.03 */
+  --dur-image:400ms; /* @kind other */
+  /* band content fade-up on scroll-in */
+  --dur-reveal:700ms; /* @kind other */
+  --reveal-y:16px;
+  --image-zoom:1.03; /* @kind other */
+}
+@media (prefers-reduced-motion:reduce){
+  :root{
+    --dur-color:1ms; /* @kind other */
+    --dur-image:1ms; /* @kind other */
+    --dur-reveal:1ms; /* @kind other */
+    --reveal-y:0px;
+    --image-zoom:1; /* @kind other */
+  }
+}

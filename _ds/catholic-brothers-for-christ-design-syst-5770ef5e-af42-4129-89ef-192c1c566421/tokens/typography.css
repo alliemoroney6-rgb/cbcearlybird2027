@@ -1,0 +1,24 @@
+:root{
+  /* display — Cinzel, ALL CAPS, never below 18px, never for paragraphs */
+  --display-1:64px; --display-2:48px; --display-3:36px; --display-4:28px;
+  --display-tracking:.06em;
+  --leading-display:1.08;
+  --leading-display-loose:1.18;
+
+  /* editorial serif — leads, pull quotes, scripture */
+  --lead:21px; --quote:26px;
+  --leading-serif:1.5;
+
+  /* sans — nav, buttons, labels, body */
+  --body:17px; --body-sm:15px; --caption:13px;
+  --leading-body:1.62;
+
+  /* eyebrow label */
+  --eyebrow-size:13px; --eyebrow-tracking:.22em;
+
+  /* button label */
+  --button-size:14px; --button-tracking:.1em;
+
+  --weight-regular:400; --weight-medium:500; --weight-semibold:600; --weight-bold:700;
+  --measure:760px;
+}

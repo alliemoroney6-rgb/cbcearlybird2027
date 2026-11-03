@@ -1,0 +1,49 @@
+:root{
+  /* --- brand base --- */
+  --maroon-900:#3F0807;      /* press */
+  --maroon-800:#5F0000;      /* hover */
+  --maroon-700:#680D0C;      /* brand primary (logo maroon) */
+  --gold-600:#A87A2E;        /* deep gold, link hover */
+  --gold-500:#CA9A3F;        /* brand accent (starburst gold) */
+  --tan-400:#C3996B;         /* illustration tan (forearms) */
+  --stone-200:#E8E4E1;       /* warm stone surface (Texas fill) */
+  --stone-300:#D6D0CB;       /* hairline on stone */
+  --gray-400:#B9BBBD;        /* disabled / hairline on dark */
+  --ink-900:#242323;         /* body text */
+  --ink-600:#55524F;         /* secondary text */
+  --white:#FFFFFF;
+
+  /* --- semantic --- */
+  --brand-primary:var(--maroon-700);
+  --brand-primary-hover:var(--maroon-800);
+  --brand-primary-press:var(--maroon-900);
+  --brand-accent:var(--gold-500);
+  --brand-accent-deep:var(--gold-600);
+  --brand-illustration:var(--tan-400);
+
+  --surface-page:var(--white);
+  --surface-alt:var(--stone-200);
+  --surface-inverse:var(--maroon-700);
+  --surface-card:var(--white);
+
+  --text-body:var(--ink-900);
+  --text-muted:var(--ink-600);
+  --text-heading:var(--maroon-700);
+  --text-inverse:var(--white);
+  --text-inverse-muted:rgba(255,255,255,.78);
+  --text-eyebrow:var(--gold-600);
+  --text-disabled:var(--gray-400);
+
+  --link:var(--maroon-700);
+  --link-hover:var(--gold-600);
+  --link-inverse:var(--white);
+
+  --border-hairline:var(--stone-300);
+  --border-strong:var(--maroon-700);
+  --border-on-dark:rgba(255,255,255,.35);
+
+  /* photo scrims — the only legal gradients in the system */
+  --scrim-flat:linear-gradient(rgba(36,35,35,.55),rgba(36,35,35,.55)); /* @kind other */
+  --scrim-bottom:linear-gradient(180deg,rgba(36,35,35,0) 30%,rgba(36,35,35,.78) 100%); /* @kind other */
+  --scrim-maroon:linear-gradient(rgba(104,13,12,.72),rgba(104,13,12,.72)); /* @kind other */
+}

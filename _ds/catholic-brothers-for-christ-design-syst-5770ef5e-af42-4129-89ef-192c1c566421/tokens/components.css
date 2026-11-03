@@ -1,0 +1,120 @@
+/* Component classes for the CBC primitives in components/. Values mirror the
+   observed site treatments: square-ish corners, maroon solids, gold accents,
+   200ms color transitions, no bounce, no gradients outside photo scrims. */
+
+/* --- layout --- */
+.cbc-container{width:100%;max-width:var(--container);margin:0 auto;padding:0 var(--gutter);box-sizing:border-box}
+.cbc-section{padding:var(--band-y) 0}
+.cbc-section--tight{padding:var(--band-y-tight) 0}
+.cbc-section--alt{background:var(--surface-alt)}
+.cbc-section--inverse{background:var(--surface-inverse);color:var(--text-inverse)}
+.cbc-section--inverse h1,.cbc-section--inverse h2,.cbc-section--inverse h3,.cbc-section--inverse h4{color:var(--text-inverse)}
+.cbc-measure{max-width:var(--measure);margin-left:auto;margin-right:auto}
+
+/* --- eyebrow + heading + rule --- */
+.cbc-eyebrow{display:block;font-family:var(--font-sans);font-size:var(--eyebrow-size);font-weight:var(--weight-semibold);text-transform:uppercase;letter-spacing:var(--eyebrow-tracking);color:var(--text-eyebrow);margin:0 0 var(--space-3)}
+.cbc-eyebrow--maroon{color:var(--brand-primary)}
+.cbc-eyebrow--on-dark{color:var(--brand-accent)}
+.cbc-rule{display:block;width:var(--rule-width);height:var(--rule-height);background:var(--brand-accent);border:0;margin:var(--space-5) 0}
+.cbc-rule--center{margin-left:auto;margin-right:auto}
+.cbc-heading{font-family:var(--font-display);text-transform:uppercase;letter-spacing:var(--display-tracking);line-height:var(--leading-display);color:var(--text-heading);margin:0}
+.cbc-heading--on-dark{color:var(--text-inverse)}
+.cbc-lead{font-family:var(--font-serif);font-size:var(--lead);line-height:var(--leading-serif);color:var(--text-body);margin:0}
+.cbc-lead--on-dark{color:var(--text-inverse-muted)}
+
+/* --- buttons --- */
+.cbc-btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);font-family:var(--font-sans);font-size:var(--button-size);font-weight:var(--weight-semibold);text-transform:uppercase;letter-spacing:var(--button-tracking);text-decoration:none;border-radius:var(--radius-button);border:1px solid var(--brand-primary);background:var(--brand-primary);color:var(--white);padding:14px 28px;cursor:pointer;transition:background var(--dur-color) var(--ease-standard),border-color var(--dur-color) var(--ease-standard),color var(--dur-color) var(--ease-standard)}
+.cbc-btn:hover{background:var(--brand-primary-hover);border-color:var(--brand-primary-hover);color:var(--white);text-decoration:none}
+.cbc-btn:active{background:var(--brand-primary-press);border-color:var(--brand-primary-press)}
+.cbc-btn:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+.cbc-btn--outline{background:transparent;color:var(--brand-primary)}
+.cbc-btn--outline:hover{background:var(--brand-primary);color:var(--white)}
+.cbc-btn--on-dark{background:transparent;border-color:var(--white);color:var(--white)}
+.cbc-btn--on-dark:hover{background:var(--white);border-color:var(--white);color:var(--brand-primary)}
+.cbc-btn--sm{padding:10px 20px;font-size:var(--caption)}
+.cbc-btn--lg{padding:18px 40px;font-size:15px}
+.cbc-btn[disabled],.cbc-btn[aria-disabled=true]{background:var(--gray-400);border-color:var(--gray-400);color:var(--white);cursor:not-allowed;pointer-events:none}
+.cbc-btn--outline[disabled]{background:transparent;border-color:var(--gray-400);color:var(--text-disabled)}
+
+/* --- text link --- */
+.cbc-link{font-family:var(--font-sans);font-weight:var(--weight-semibold);color:var(--link);text-decoration:none;transition:color var(--dur-color) var(--ease-standard)}
+.cbc-link:hover{color:var(--link-hover);text-decoration:underline}
+.cbc-link--on-dark{color:var(--link-inverse)}
+.cbc-link--on-dark:hover{color:var(--brand-accent)}
+.cbc-link--arrow::after{content:"\00a0\2192"}
+
+/* --- cards --- */
+.cbc-card{display:flex;flex-direction:column;background:var(--surface-card);border:var(--hairline);border-radius:var(--radius-card);box-shadow:var(--shadow-card);overflow:hidden;text-decoration:none;color:var(--text-body);transition:box-shadow var(--dur-color) var(--ease-standard),border-color var(--dur-color) var(--ease-standard)}
+.cbc-card:hover{box-shadow:var(--shadow-card-hover);text-decoration:none}
+.cbc-card__media{position:relative;overflow:hidden;aspect-ratio:16/10;background:var(--surface-alt)}
+.cbc-card__media > img{display:block;width:100%;height:100%;object-fit:cover;transition:transform var(--dur-image) var(--ease-standard)}
+.cbc-card:hover .cbc-card__media > img{transform:scale(var(--image-zoom))}
+.cbc-card__body{padding:var(--space-5)}
+.cbc-card__title{font-family:var(--font-display);text-transform:uppercase;letter-spacing:var(--display-tracking);font-size:20px;line-height:1.2;color:var(--text-heading);margin:0 0 var(--space-3)}
+.cbc-card__text{font-size:var(--body-sm);color:var(--text-body);margin:0}
+
+/* photography placeholder — this system ships no event photography */
+.cbc-photo-placeholder{display:flex;align-items:center;justify-content:center;width:100%;height:100%;background:var(--surface-alt);color:var(--text-muted);font-family:var(--font-sans);font-size:var(--caption);text-transform:uppercase;letter-spacing:var(--eyebrow-tracking);text-align:center;padding:var(--space-4);box-sizing:border-box}
+
+/* --- photo band --- */
+.cbc-photoband{position:relative;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;background:var(--surface-alt)}
+.cbc-photoband__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cbc-photoband__scrim{position:absolute;inset:0}
+.cbc-photoband__inner{position:relative;z-index:1;text-align:center;color:var(--text-inverse);padding:var(--band-y) var(--gutter);width:100%;box-sizing:border-box}
+
+/* --- value block --- */
+.cbc-value{text-align:center;padding:0 var(--space-4)}
+.cbc-value__mark{width:56px;height:56px;object-fit:contain;margin:0 auto var(--space-4);display:block}
+.cbc-value__title{font-family:var(--font-display);text-transform:uppercase;letter-spacing:var(--display-tracking);font-size:18px;color:var(--text-heading);margin:0 0 var(--space-2)}
+.cbc-value__text{font-size:var(--body-sm);color:var(--text-muted);margin:0}
+
+/* --- person --- */
+.cbc-person{text-align:center}
+.cbc-person__photo{width:132px;height:132px;border-radius:var(--radius-full);object-fit:cover;background:var(--surface-alt);margin:0 auto var(--space-4);display:block;border:1px solid var(--border-hairline)}
+.cbc-person__name{font-family:var(--font-display);text-transform:uppercase;letter-spacing:var(--display-tracking);font-size:16px;color:var(--text-heading);margin:0 0 2px}
+.cbc-person__role{font-size:var(--caption);text-transform:uppercase;letter-spacing:.12em;color:var(--text-muted);margin:0}
+
+/* --- video card --- */
+.cbc-video{display:block;background:var(--ink-900);border-radius:var(--radius-card);overflow:hidden;box-shadow:var(--shadow-card)}
+.cbc-video__frame{position:relative;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;background:var(--ink-900)}
+.cbc-video__play{width:64px;height:64px;border-radius:var(--radius-full);background:var(--brand-primary);border:0;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:background var(--dur-color) var(--ease-standard)}
+.cbc-video__play:hover{background:var(--brand-primary-hover)}
+.cbc-video__play span{display:block;width:0;height:0;border-left:18px solid var(--white);border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:4px}
+.cbc-video__meta{padding:var(--space-4) var(--space-5);background:var(--white);border:var(--hairline);border-top:0}
+.cbc-video__title{font-family:var(--font-sans);font-weight:var(--weight-semibold);font-size:var(--body);color:var(--text-body);margin:0}
+.cbc-video__speaker{font-size:var(--caption);text-transform:uppercase;letter-spacing:.12em;color:var(--text-muted);margin:var(--space-1) 0 0}
+
+/* --- forms --- */
+.cbc-field{display:block;margin:0 0 var(--space-5)}
+.cbc-field__label{display:block;font-family:var(--font-sans);font-size:var(--caption);font-weight:var(--weight-semibold);text-transform:uppercase;letter-spacing:.12em;color:var(--text-body);margin:0 0 var(--space-2)}
+.cbc-field__hint{font-size:var(--caption);color:var(--text-muted);margin:var(--space-2) 0 0}
+.cbc-field__error{font-size:var(--caption);color:var(--brand-primary);font-weight:var(--weight-semibold);margin:var(--space-2) 0 0}
+.cbc-input{display:block;width:100%;box-sizing:border-box;font-family:var(--font-sans);font-size:var(--body);color:var(--text-body);background:var(--white);border:1px solid var(--border-hairline);border-radius:var(--radius-input);padding:12px 14px;transition:border-color var(--dur-color) var(--ease-standard)}
+.cbc-input::placeholder{color:var(--gray-400)}
+.cbc-input:hover{border-color:var(--tan-400)}
+.cbc-input:focus{outline:none;border-color:var(--brand-primary);box-shadow:var(--focus-ring)}
+.cbc-input[aria-invalid=true]{border-color:var(--brand-primary)}
+.cbc-input[disabled]{background:var(--surface-alt);color:var(--text-disabled);cursor:not-allowed}
+.cbc-input--textarea{min-height:132px;resize:vertical}
+
+/* --- header / footer / social --- */
+.cbc-header{background:var(--white);box-shadow:var(--shadow-header);position:sticky;top:0;z-index:20}
+.cbc-header__inner{display:flex;align-items:center;justify-content:space-between;gap:var(--space-6);min-height:88px}
+.cbc-header__logo img{height:56px;display:block}
+.cbc-nav{display:flex;align-items:center;gap:var(--space-5);flex-wrap:wrap}
+.cbc-nav__link{font-family:var(--font-sans);font-size:var(--body-sm);font-weight:var(--weight-medium);color:var(--text-body);text-decoration:none;padding:var(--space-2) 0;border-bottom:2px solid transparent;transition:color var(--dur-color) var(--ease-standard),border-color var(--dur-color) var(--ease-standard);cursor:pointer;background:none;border-left:0;border-right:0;border-top:0}
+.cbc-nav__link:hover{color:var(--brand-primary);text-decoration:none}
+.cbc-nav__link[aria-current=page]{color:var(--brand-primary);border-bottom-color:var(--brand-accent)}
+.cbc-social{display:flex;align-items:center;gap:var(--space-2)}
+.cbc-social__btn{display:flex;align-items:center;justify-content:center;width:39px;height:39px;border-radius:var(--radius-full);background:var(--brand-primary);transition:background var(--dur-color) var(--ease-standard)}
+.cbc-social__btn:hover{background:var(--brand-primary-hover)}
+.cbc-social__btn i{display:block;width:19px;height:19px;background:var(--white);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}
+.cbc-social--on-dark .cbc-social__btn{background:transparent;border:1px solid var(--border-on-dark)}
+.cbc-social--on-dark .cbc-social__btn:hover{background:rgba(255,255,255,.14)}
+.cbc-footer{background:var(--white);border-top:var(--hairline);padding:var(--band-y-tight) 0 var(--space-6)}
+.cbc-footer__grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:var(--space-7);align-items:start}
+.cbc-footer__logo img{height:76px;display:block;margin-bottom:var(--space-4)}
+.cbc-footer__title{font-family:var(--font-sans);font-size:var(--caption);font-weight:var(--weight-semibold);text-transform:uppercase;letter-spacing:var(--eyebrow-tracking);color:var(--brand-primary);margin:0 0 var(--space-3)}
+.cbc-footer__list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:var(--space-2);font-size:var(--body-sm)}
+.cbc-footer__legal{margin-top:var(--space-7);padding-top:var(--space-5);border-top:var(--hairline);font-size:var(--caption);color:var(--text-muted);display:flex;justify-content:space-between;gap:var(--space-5);flex-wrap:wrap}
+@media (max-width:860px){.cbc-footer__grid{grid-template-columns:1fr}}
