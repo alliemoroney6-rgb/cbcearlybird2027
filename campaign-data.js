@@ -93,12 +93,12 @@ window.CBC_DATA = {
    "dateLong": "Friday, November 6",
    "sort": 1793919600000,
    "type": "Registration",
-   "theme": "Early bird pricing: $89",
-   "title": "Early Bird Pricing Is Here",
-   "img": "assets/web/early-bird-nov06-v2.png",
+   "theme": "Biggest Catholic men’s conference in the Metroplex + early bird $89",
+   "title": "The Biggest Catholic Men’s Conference in the Metroplex",
+   "img": "assets/web/early-bird-nov06-v3.png",
    "yt": null,
    "paras": [
-    "Early bird pricing for the Catholic Brothers for Christ Men’s Conference is open: $89 for a limited time.",
+    "Rise Up & Lead, the 2027 Catholic Brothers for Christ Men’s Conference, will be the biggest Catholic men’s conference the Metroplex has ever seen.", "One day of faith and brotherhood, and men’s lives will change. Come see it for yourself, and bring a brother with you.", "Early bird pricing is open now: $89 through December 31.",
     "Saturday, March 6, 2027, at the Texas Trust Center in Grand Prairie.",
     "Register & share: gatheringline.com/e/catholic-brothers-for-christ-2027"
    ],
