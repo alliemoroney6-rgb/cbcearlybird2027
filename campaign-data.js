@@ -263,11 +263,11 @@ window.CBC_DATA = {
    "type": "Call to action",
    "theme": "Early bird ends in 30 days",
    "title": "Early Bird Ends in 30 Days",
-   "img": "assets/web/ends-soon-dec01-v2.png",
+   "img": "assets/web/ends-soon-dec01-v3.png",
    "yt": null,
    "paras": [
     "Thirty days left to register at the $89 early bird price.",
-    "Raymond Arroyo, Neal McDonough, Fr. Augustine Wetta, O.S.B., and Jeff Schiefelbein. Hear them live at the Catholic Brothers for Christ Men’s Conference on Saturday, March 6, at the Texas Trust Center in Grand Prairie.",
+    "Raymond Arroyo, Neal McDonough, Fr. Augustine Wetta, O.S.B., Jeff Schiefelbein, and Fr. Jonathan McElhone, TOR. Hear all five live at the Catholic Brothers for Christ Men’s Conference on Saturday, March 6, at the Texas Trust Center in Grand Prairie.",
     "Register & share: gatheringline.com/e/catholic-brothers-for-christ-2027"
    ],
    "tags": "#RiseUpAndLead #CatholicMen #CatholicBrotherhood #CatholicFaithEvent #CatholicBrothersforChrist"
@@ -421,9 +421,52 @@ window.CBC_DATA = {
    "tags": "#RiseUpAndLead #CatholicMen #CatholicBrotherhood #CatholicFaithEvent #CatholicBrothersforChrist"
   },
   {
-   "id": "p15",
+   "id": "p24",
    "kind": "post",
    "num": "17",
+   "week": 7,
+   "date": "Sat, Dec 19",
+   "dateLong": "Saturday, December 19",
+   "sort": 1797634800000,
+   "type": "Speaker graphic",
+   "theme": "Speaker spotlight: Fr. Jonathan McElhone, TOR",
+   "title": "Speaker Spotlight: Fr. Jonathan McElhone, TOR",
+   "img": "assets/web/spotlight-mcelhone.png",
+   "yt": null,
+   "paras": [
+    "Fr. Jonathan McElhone, TOR, is coming to the Catholic Brothers for Christ Men’s Conference!",
+    "Fr. Jonathan is a Franciscan friar of the Third Order Regular, and he knows our area well: after his ordination he served as parochial vicar at Good Shepherd Catholic Community in Fort Worth. Before the priesthood he worked as an industrial electrician, programming robots on a factory floor. Today he serves as vocations director for the Franciscan TORs and speaks at Steubenville Conferences.",
+    "Hear him live at Rise Up & Lead, the Catholic Brothers for Christ Men’s Conference, on Saturday, March 6, 2027, at the Texas Trust Center in Grand Prairie. Early bird pricing is $89 through December 31.",
+    "Register & share: gatheringline.com/e/catholic-brothers-for-christ-2027"
+   ],
+   "tags": "#RiseUpAndLead #CatholicMen #CatholicBrotherhood #CatholicFaithEvent #CatholicBrothersforChrist"
+  },
+  {
+   "id": "p25",
+   "kind": "post",
+   "num": "18",
+   "week": 7,
+   "date": "Sun, Dec 20",
+   "dateLong": "Sunday, December 20",
+   "sort": 1797721200000,
+   "type": "Speaker video",
+   "theme": "Watch: Fr. Jonathan McElhone on the Fourth Sunday of Advent",
+   "title": "Watch: Fr. Jonathan McElhone, TOR",
+   "img": "https://img.youtube.com/vi/7XdfC8Py00c/hqdefault.jpg",
+   "yt": "7XdfC8Py00c",
+   "paras": [
+    "Today is the Fourth Sunday of Advent, and Christmas is five days away.",
+    "Fr. Jonathan McElhone, TOR, one of our five speakers, offers a reflection for this Sunday. Take a few minutes with it before the busy week ahead.",
+    "Hear him live Saturday, March 6, at the Texas Trust Center in Grand Prairie. Early bird pricing of $89 ends December 31.",
+    "▶ Watch Fr. Jonathan: youtube.com/watch?v=7XdfC8Py00c",
+    "Register & share: gatheringline.com/e/catholic-brothers-for-christ-2027"
+   ],
+   "tags": "#RiseUpAndLead #CatholicMen #CatholicBrotherhood #CatholicFaithEvent #CatholicBrothersforChrist"
+  },
+  {
+   "id": "p15",
+   "kind": "post",
+   "num": "19",
    "week": 8,
    "date": "Tue, Dec 22",
    "dateLong": "Tuesday, December 22",
@@ -442,7 +485,7 @@ window.CBC_DATA = {
   {
    "id": "p16",
    "kind": "post",
-   "num": "18",
+   "num": "20",
    "week": 8,
    "date": "Thu, Dec 24",
    "dateLong": "Thursday, December 24",
@@ -465,20 +508,20 @@ window.CBC_DATA = {
   {
    "id": "p17",
    "kind": "post",
-   "num": "19",
+   "num": "21",
    "week": 9,
-   "date": "Tue, Dec 29",
-   "dateLong": "Tuesday, December 29",
-   "sort": 1798498800000,
+   "date": "Mon, Dec 28",
+   "dateLong": "Monday, December 28",
+   "sort": 1798412400000,
    "type": "Event promotion",
-   "theme": "Three days left: four speakers, one Saturday",
+   "theme": "Three days left: five speakers, one Saturday",
    "title": "Three Days Left",
-   "img": "assets/web/3-days-left-dec29.png",
+   "img": "assets/web/3-days-left-dec28.png",
    "yt": null,
    "paras": [
     "Three days left, brothers. Early bird pricing for the Catholic Brothers for Christ Men’s Conference ends Thursday, December 31.",
     "Here’s who you’ll hear on Saturday, March 6, at the Texas Trust Center in Grand Prairie:",
-    "Raymond Arroyo, host of EWTN’s The World Over\nNeal McDonough, actor, husband, and father of five\nFr. Augustine Wetta, O.S.B., author of Humility Rules\nJeff Schiefelbein, Catholic husband, father, and speaker",
+    "Raymond Arroyo, host of EWTN’s The World Over\nNeal McDonough, actor, husband, and father of five\nFr. Augustine Wetta, O.S.B., author of Humility Rules\nJeff Schiefelbein, Catholic husband, father, and speaker\nFr. Jonathan McElhone, TOR",
     "Lock in $89 before it goes up. Time is running out!",
     "Register & share: gatheringline.com/e/catholic-brothers-for-christ-2027"
    ],
@@ -487,7 +530,7 @@ window.CBC_DATA = {
   {
    "id": "p18",
    "kind": "post",
-   "num": "20",
+   "num": "22",
    "week": 9,
    "date": "Wed, Dec 30",
    "dateLong": "Wednesday, December 30",
@@ -508,7 +551,7 @@ window.CBC_DATA = {
   {
    "id": "p19",
    "kind": "post",
-   "num": "21",
+   "num": "23",
    "week": 9,
    "date": "Thu, Dec 31",
    "dateLong": "Thursday, December 31",
